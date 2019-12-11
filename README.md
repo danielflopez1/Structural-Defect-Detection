@@ -17,10 +17,14 @@ Plate simulation parameters in the code are given as a plate of 10 by 10 centere
 ![](https://github.com/danielflopez1/Structural-Defect-Detection/blob/master/Sensors.png)
 
 
-## Networks 
-*CNN-LSTM 
-*CNN
-*LSTM
+## Results 
+|Network        | Accuracy |
+|---------------|----------|
+|CNN            | 89.5489  |
+|Fourier-CNN    | 79.26414 |
+|CNN-LSTM       | 80.00000 |
+
+### Report
 
 [Project Details](https://docs.google.com/document/d/1AlJmcSzWoFh2aex3gz_YyJZfXLPGOyG6g7xSFFyxJ0c/edit?usp=sharing)
 
