@@ -11,7 +11,7 @@ meep: https://github.com/NanoComp/meep
 ```
 ## Simulations
 These simulations were created using [meep's](https://meep.readthedocs.io/en/latest) finite-difference time-domain (FDTD) method. 
-![](WaveSimulation1.gif)  ![](Wavesimulation3.gif)
+![](WaveSimulation1.gif)
 
 Plate simulation parameters in the code are given as a plate of 10 by 10 centered at 0,0 in the model’s units, in a 16 by 16 simulation grid centered at 0,0 in model’s units. With a medium with elasticity epsilon 5. Each model unit are 50 pixels. The obstruction/defect is a hole (medium with elasticity 1) of 1 by 1 model’s units. It is put in different places to simulate multiple possible defects.
 ![](https://github.com/danielflopez1/Structural-Defect-Detection/blob/master/Sensors.png)
