@@ -14,7 +14,7 @@ import glob, os
 from pandas.tools.plotting import table
 import random
 
-class WifiCNN:
+class DefectDetector:
     def __init__(self):
         self.totalXData = []
         self.totalYData = []
@@ -105,8 +105,6 @@ class WifiCNN:
         return inp_datanew, out_datanew
     def modify_input(self):
         self.totalXData, totalYData = self.sequence_input(self.totalXData,self.totalYData,5,0,0)
-
-        print("YESSSSSSSSSSSSSSSSSSSSSSSSSSS")
         data = np.array(self.totalXData)
         shapes = data.shape
         print(shapes)
@@ -199,7 +197,6 @@ class WifiCNN:
         for i,val in enumerate(y_train[:-1]):
             print("P:",prediction[i], " V:",val," E:", val-prediction[i])
             sum_err += abs(val-prediction[i])
-        #print(a, b, c, d, e)
         print('score', score)
         print(sum_err)
         return sum_err,score,[type1, type2, type3, type4]
@@ -210,7 +207,7 @@ class WifiCNN:
 
 
 if __name__ == '__main__':
-    wcnn = WifiCNN()
+    wcnn = DefectDetector()
     wcnn.open_wave_data()
     adata = []
     types = ['sigmoid','tanh','relu']
