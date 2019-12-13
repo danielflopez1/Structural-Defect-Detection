@@ -1,4 +1,4 @@
-# Structural-Defects-Sensor
+# Structural Defects Sensor
 Implemented convolutional and LSTM networks to detect structural defects in plates using electromagnetic wave generators and sensors. Generated training and testing data, simulated electromagnetic waves and their propagation in a 2D plate using finite-difference time-domain (FDTD) method using the MEEP library. This Model identified correctly the region of the location of the defect 89% of the time. 
 
 ## Requirements
