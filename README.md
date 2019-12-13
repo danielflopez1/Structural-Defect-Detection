@@ -40,4 +40,4 @@ mcnn.cnn(2, 4, 4, 150, 3))
 
 [Project Details](https://docs.google.com/document/d/1AlJmcSzWoFh2aex3gz_YyJZfXLPGOyG6g7xSFFyxJ0c/edit?usp=sharing)
 
-There are more neural networks in the report to be tested.
+There are more neural network codes in the report to be tested.
